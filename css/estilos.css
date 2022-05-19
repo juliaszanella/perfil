@@ -1,0 +1,54 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap');
+
+@font-face {
+        font-family: Julia;
+        src: url('Lato-Black.ttf')
+}
+
+:root { --cor-fundo: #C2EAD5;
+        --cor-titulo: #000;
+        --cor-paragrafo: #000;
+        --cor-link: #36664D;
+        --fonte: Lato, Julia;
+        /*Nome da minha paleta: Green Lover1*/
+
+}
+body {
+    background-color:var(--cor-fundo);
+    font-family: var(--fonte);
+    width: 400px;
+    max-width: 100%;
+    margin-top: 0;
+    margin-bottom: 0px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+h1 {
+    color: var(--cor-titulo);
+    text-align: center;
+    font-family: Julia;
+}
+
+p {
+    color: var(--cor-paragrafo);
+    text-align: justify;
+}
+
+ul, li, a {
+    color: var(--cor-link);
+    padding: 0%;
+    font-family: Julia;
+}
+
+img {
+    border-radius: 50%;
+    border-color: #000000;
+    border-width: 8px;
+    border-style: solid; 
+}
+
+div.imagem{
+    text-align: center;
+}
